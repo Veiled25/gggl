@@ -1,0 +1,150 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.left-section, .right-section {
+    padding: 40px;
+    width: 50%;
+}
+
+.left-section {
+    background: #f9f9f9;
+    text-align: left;
+}
+
+.right-section {
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.aol-logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.explore-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.explore-button:hover {
+    background-color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #0073cf;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: #005bb5;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.options input {
+    margin-right: 5px;
+}
+
+.options a {
+    color: #0073cf;
+    text-decoration: none;
+}
+
+.create-account {
+    background-color: transparent;
+    color: #0073cf;
+    border: 1px solid #0073cf;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.create-account:hover {
+    background-color: #f0f8ff;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-buttons button {
+    background-color: #f3f3f3;
+    color: #000;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 48%;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.social-buttons button:hover {
+    background-color: #e0e0e0;
+}
